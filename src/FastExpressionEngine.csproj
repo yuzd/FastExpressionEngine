@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Description>包装FastExpressionCompiler,字符串条件表达式返回Bool</Description>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <PackageId>FastExpressionEngine</PackageId>
+        <PackageTags>FastExpressionEngine</PackageTags>
+        <PackageReleaseNotes>包装FastExpressionCompiler,字符串条件表达式返回Bool</PackageReleaseNotes>
+        <PackageIconUrl></PackageIconUrl>
+        <PackageProjectUrl>https://github.com/yuzd/Autofac.Annotation</PackageProjectUrl>
+        <PackageLicenseUrl></PackageLicenseUrl>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl></RepositoryUrl>
+        <AssemblyName>FastExpressionEngine</AssemblyName>
+        <RootNamespace>FastExpressionEngine</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="BitFaster.Caching" Version="2.2.0" />
+        <PackageReference Include="FastExpressionCompiler" Version="3.3.4" />
+        <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+        <PackageReference Include="System.Linq" Version="4.3.0" />
+        <PackageReference Include="System.Linq.Dynamic.Core" Version="1.3.3" />
+    </ItemGroup>
+</Project>
